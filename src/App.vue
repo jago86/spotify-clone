@@ -1,0 +1,3 @@
+<template>
+  Hola Tailwind
+</template>
