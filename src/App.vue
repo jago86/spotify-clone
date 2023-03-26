@@ -49,7 +49,25 @@
 
 
     <!-- Content -->
-    <div class="w-[87%] px-3 py-2 bg-neutral-900">Content</div>
+    <div class="w-[87%] bg-neutral-900 overflow-scroll">
+      <div class="bg-green-500 sticky top-0">Foo bar</div>
+
+      <div class="px-10 pt-14 pb-28">
+        <h2 class="text-2xl font-bold">Escuchados recientemente</h2>
+
+        <div class="mt-8 grid grid-rows-1 grid-cols-5">
+          <div class="h-[17rem] bg-neutral-800 rounded">
+            <div>
+              <img class="mx-auto mt-4 rounded-full" src="/images/sacoto.jpeg" alt="">
+            </div>
+            <div class="mx-5 mt-4">
+              <h3 class="font-bold">Sergio Sacoto</h3>
+              <p class="text-sm text-gray-400">Artista</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- End content -->
 
 
