@@ -50,7 +50,42 @@
 
     <!-- Content -->
     <div class="w-[87%] bg-neutral-900 overflow-scroll">
-      <div class="bg-green-500 sticky top-0">Foo bar</div>
+
+
+      <div class="flex justify-between px-10 py-4 bg-black sticky top-0">
+        <div class="space-x-2">
+
+          <button class="p-[0.20rem] bg-neutral-700 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+          <button class="p-[0.20rem] bg-neutral-700 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+          </button>
+
+        </div>
+
+        <div class="flex gap-x-2">
+
+          <button class="px-3 py-1 border border-gray-400 hover:border-gray-200 rounded-full text-sm font-semibold hover:scale-105 transition">Mejora tu cuenta</button>
+          <button class="h-8 flex items-center gap-x-1 pr-3 pl-[0.18rem] rounded-full text-sm font-semibold bg-neutral-800 hover:bg-neutral-900" >
+            <div class="w-7 h-7 rounded-full overflow-hidden"><img src="/images/avatar.jpeg" alt=""></div>
+            <div>Jairo</div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </div>
+
+          </button>
+
+        </div>
+      </div>
+
+
 
       <div class="px-10 pt-14 pb-28">
         <div class="flex justify-between">
