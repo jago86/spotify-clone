@@ -2,7 +2,7 @@
   <div class="relative h-screen flex text-white">
 
     <!-- Side bar -->
-    <div class="w-[13%] px-5 pt-6 bg-black text-gray-400 text-sm font-medium">
+    <div class="w-[13%] px-5 pt-6 bg-black text-light-secondary text-sm font-medium">
       <svg class="text-white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1134 340"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
 
       <div class="mt-10 space-y-4">
@@ -49,18 +49,18 @@
 
 
     <!-- Content -->
-    <div class="w-[87%] bg-neutral-900 overflow-scroll">
+    <div class="w-[87%] bg-dark-darker overflow-scroll">
 
 
       <div class="flex justify-between px-10 py-4 bg-black sticky top-0">
         <div class="space-x-2">
 
-          <button class="p-[0.20rem] bg-neutral-700 rounded-full">
+          <button class="p-[0.20rem] bg-dark-light rounded-full">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
             </svg>
           </button>
-          <button class="p-[0.20rem] bg-neutral-700 rounded-full">
+          <button class="p-[0.20rem] bg-dark-light rounded-full">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
@@ -70,8 +70,8 @@
 
         <div class="flex gap-x-2">
 
-          <button class="px-3 py-1 border border-gray-400 hover:border-gray-200 rounded-full text-sm font-semibold hover:scale-105 transition">Mejora tu cuenta</button>
-          <button class="h-8 flex items-center gap-x-1 pr-3 pl-[0.18rem] rounded-full text-sm font-semibold bg-neutral-800 hover:bg-neutral-900" >
+          <button class="px-3 py-1 border border-light-secondary hover:border-gray-200 rounded-full text-sm font-semibold hover:scale-105 transition">Mejora tu cuenta</button>
+          <button class="h-8 flex items-center gap-x-1 pr-3 pl-[0.18rem] rounded-full text-sm font-semibold bg-dark hover:bg-neutral-900" >
             <div class="w-7 h-7 rounded-full overflow-hidden"><img src="/images/avatar.jpeg" alt=""></div>
             <div>Jairo</div>
             <div>
@@ -89,67 +89,71 @@
 
       <div class="px-10 pt-14 pb-28">
         <div class="flex justify-between">
-          <h2><a href="#" class="text-2xl font-bold hover:underline">Escuchados recientemente</a></h2>
-          <button class="font-bold text-gray-400 text-sm hover:underline">Mostrar todos</button>
+          <h2>
+            <a href="#" class="text-light-primary text-2xl font-bold hover:underline">
+              Escuchados recientemente
+            </a>
+          </h2>
+          <button class="font-bold text-light-secondary text-sm hover:underline">Mostrar todos</button>
         </div>
 
         <div class="mt-8 grid grid-rows-1 grid-cols-5 gap-x-5">
 
-          <div class="group h-[17rem] bg-neutral-800 hover:bg-neutral-700 rounded cursor-pointer">
+          <div class="group h-[17rem] bg-dark hover:bg-dark-light rounded cursor-pointer">
             <div class="relative">
               <div class="w-36 h-36 mx-auto mt-4 rounded-full overflow-hidden">
                 <!-- <img class="mx-auto mt-4 rounded-full" src="/images/sacoto.jpeg" alt=""> -->
                 <img class="w-full h-full object-cover" src="/images/sacoto.jpeg" alt="">
               </div>
               <button class="absolute right-5 bottom-1 opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition">
-                <svg class="w-16 h-16 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <svg class="w-16 h-16 text-green-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
                 </svg>
               </button>
             </div>
             <div class="mx-5 mt-4">
-              <h3 class="font-bold">Sergio Sacoto</h3>
-              <p class="text-sm text-gray-400">Artista</p>
+              <h3 class="font-bold text-light-primary">Sergio Sacoto</h3>
+              <p class="text-sm text-light-secondary">Artista</p>
             </div>
           </div>
 
-          <div class="group h-[17rem] bg-neutral-800 hover:bg-neutral-700 rounded cursor-pointer">
+          <div class="group h-[17rem] bg-dark hover:bg-dark-light rounded cursor-pointer">
               <div class="relative">
                 <div class="w-36 h-36 mx-auto mt-4 rounded-full overflow-hidden">
                   <!-- <img class="mx-auto mt-4 rounded-full" src="/images/sacoto.jpeg" alt=""> -->
                   <img class="w-full h-full object-cover" src="/images/enanitos.jpeg" alt="">
                 </div>
                 <button class="absolute right-5 bottom-1 opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition">
-                  <svg class="w-16 h-16 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <svg class="w-16 h-16 text-green-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
                   </svg>
                 </button>
               </div>
               <div class="mx-5 mt-4">
-                <h3 class="font-bold">Enanitos Verdes</h3>
-                <p class="text-sm text-gray-400">Artista</p>
+                <h3 class="font-bold text-light-primary">Enanitos Verdes</h3>
+                <p class="text-sm text-light-secondary">Artista</p>
               </div>
             </div>
 
 
-            <div class="group h-[17rem] bg-neutral-800 hover:bg-neutral-700 rounded cursor-pointer">
+            <div class="group h-[17rem] bg-dark hover:bg-dark-light rounded cursor-pointer">
                 <div class="relative">
                   <div class="w-36 h-36 mx-auto mt-4 rounded overflow-hidden">
                     <!-- <img class="mx-auto mt-4 rounded-full" src="/images/sacoto.jpeg" alt=""> -->
                     <img class="w-full h-full object-cover" src="/images/rock.jpeg" alt="">
                   </div>
                   <button class="absolute right-5 bottom-1 opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition">
-                    <svg class="w-16 h-16 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <svg class="w-16 h-16 text-green-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
                     </svg>
                   </button>
                 </div>
                 <div class="mx-5 mt-4">
-                  <h3 class="font-bold">00s Rock Anthems</h3>
-                  <p class="text-sm text-gray-400">These songs rocked the 00s. Cover: Green Day</p>
+                  <h3 class="font-bold text-light-primary">00s Rock Anthems</h3>
+                  <p class="text-sm text-light-secondary">These songs rocked the 00s. Cover: Green Day</p>
                 </div>
               </div>
 
@@ -185,13 +189,13 @@
         <div class="w-2/5">
           <div class="mt-2 flex justify-center gap-x-5">
             <!-- Shuffle -->
-            <button class="text-gray-400 hover:text-white transition">
+            <button class="text-light-secondary hover:text-white transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" /></svg>
             </button>
             <!-- End Shuffle -->
 
             <!-- Prev -->
-            <button class="text-gray-400 hover:text-white transition">
+            <button class="text-light-secondary hover:text-white transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M21 16.811c0 .864-.933 1.405-1.683.977l-7.108-4.062a1.125 1.125 0 010-1.953l7.108-4.062A1.125 1.125 0 0121 8.688v8.123zM11.25 16.811c0 .864-.933 1.405-1.683.977l-7.108-4.062a1.125 1.125 0 010-1.953L9.567 7.71a1.125 1.125 0 011.683.977v8.123z" /></svg>
             </button>
             <!-- End Prev -->
@@ -206,13 +210,13 @@
             <!-- End Play -->
 
             <!-- Next -->
-            <button class="text-gray-400 hover:text-white transition">
+            <button class="text-light-secondary hover:text-white transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.688c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 010 1.953l-7.108 4.062A1.125 1.125 0 013 16.81V8.688zM12.75 8.688c0-.864.933-1.405 1.683-.977l7.108 4.062a1.125 1.125 0 010 1.953l-7.108 4.062a1.125 1.125 0 01-1.683-.977V8.688z" /></svg>
             </button>
             <!-- End Next -->
 
             <!-- Repeat -->
-            <button class="text-gray-400 hover:text-white transition">
+            <button class="text-light-secondary hover:text-white transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3" /></svg>
             </button>
             <!-- End Repeat -->
@@ -220,7 +224,7 @@
           </div>
 
           <!-- Play time bar -->
-          <div class="group flex items-center gap-x-2 text-xs text-gray-400">
+          <div class="group flex items-center gap-x-2 text-xs text-light-secondary">
             <div>00:38</div>
             <div class="w-full bg-gray-500 h-1 rounded">
               <div class="relative w-[25%] bg-white group-hover:bg-green-500 h-1 rounded">
@@ -237,7 +241,7 @@
 
 
         <div>
-          <div class="flex items-center gap-x-5 h-full text-gray-400">
+          <div class="flex items-center gap-x-5 h-full text-light-secondary">
             <button>
               <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" /></svg>
             </button>
