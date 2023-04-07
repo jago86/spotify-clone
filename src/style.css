@@ -4,33 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .text-primary-color {
-        color: #fff;
-    }
-    .text-secondary-color {
-        color: #a7a7a7;
-    }
-    .text-green-primary-color {
-        color: #1DCF5D;
-    }
-    .text-green-secondary-color {
-        color: #1FDC62;
-    }
-
-    .bg-primary-color {
-        background-color:#121212;
-    }
-    .bg-secondary-color {
-        background-color:#181818;
-    }
-    .bg-tertiary-color {
-        background-color:#282828;
-    }
-    .bg-green-primary-color {
-        background-color: #1DCF5D;
-    }
-    .bg-green-secondary-color {
-        background-color: #1FDC62;
+@layer components {
+    .button-bordered {
+        @apply px-3 py-1 border border-light-secondary hover:border-gray-200 rounded-full text-sm font-semibold hover:scale-105 transition;
     }
 }

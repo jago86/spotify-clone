@@ -70,7 +70,10 @@
 
         <div class="flex gap-x-2">
 
-          <button class="px-3 py-1 border border-light-secondary hover:border-gray-200 rounded-full text-sm font-semibold hover:scale-105 transition">Mejora tu cuenta</button>
+          <button class="button-bordered">
+            Mejora tu cuenta
+          </button>
+
           <button class="h-8 flex items-center gap-x-1 pr-3 pl-[0.18rem] rounded-full text-sm font-semibold bg-dark hover:bg-neutral-900" >
             <div class="w-7 h-7 rounded-full overflow-hidden"><img src="/images/avatar.jpeg" alt=""></div>
             <div>Jairo</div>
