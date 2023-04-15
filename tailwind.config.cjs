@@ -22,6 +22,7 @@ module.exports = {
           'darker': '#121212',
           DEFAULT: '#181818',
           'light': '#282828',
+          'lighter': '#3E3E3E',
         },
       },
       fontFamily: {

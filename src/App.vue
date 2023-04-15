@@ -122,6 +122,10 @@
           ></Tile>
 
         </div>
+
+        <div class="border p-5 bg-gray-200">
+          <Dropdown></Dropdown>
+        </div>
       </div>
     </div>
     <!-- End content -->
@@ -239,4 +243,5 @@
 
 <script setup>
 import Tile from './components/Tile.vue';
+import Dropdown from './components/Dropdown.vue';
 </script>
