@@ -124,7 +124,30 @@
         </div>
 
         <div class="border p-5 bg-gray-200">
-          <Dropdown></Dropdown>
+          <Dropdown
+            :items="[
+              {
+                title: 'Seguir',
+                icon: null,
+              },
+              {
+                title: 'Ir a radio del artista',
+                icon: null,
+              },
+              {
+                title: 'Denunciar',
+                icon: 'ArrowTopRightOnSquare',
+              },
+              {
+                title: 'Compartir',
+                icon: 'ChevronRight',
+              },
+              {
+                title: 'Abrir en la aplicación del ordenador',
+                icon: null,
+              },
+            ]"
+          ></Dropdown>
         </div>
       </div>
     </div>
