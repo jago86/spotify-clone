@@ -129,22 +129,38 @@
               {
                 title: 'Seguir',
                 icon: null,
+                items: null,
               },
               {
                 title: 'Ir a radio del artista',
                 icon: null,
+                items: null,
               },
               {
                 title: 'Denunciar',
                 icon: 'ArrowTopRightOnSquare',
+                items: null,
               },
               {
                 title: 'Compartir',
                 icon: 'ChevronRight',
+                items: [
+                  {
+                    title: 'Copiar URI de Spotify',
+                    icon: null,
+                    items: null,
+                  },
+                  {
+                    title: 'Insertar artista',
+                    icon: null,
+                    items: null,
+                  },
+                ],
               },
               {
                 title: 'Abrir en la aplicación del ordenador',
                 icon: null,
+                items: null,
               },
             ]"
           ></Dropdown>
