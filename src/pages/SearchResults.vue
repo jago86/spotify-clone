@@ -57,16 +57,33 @@
 
 
 
-        <div class="px-10 pt-14 pb-28">
+        <div class="px-10 pt-8 pb-28">
 
+            <div class="flex gap-x-1">
+                <div class="px-3 py-1 bg-light-primary text-black rounded-full">
+                    Todo
+                </div>
 
-            <div class="flex border">
+                <div class="px-3 py-1 bg-dark-light rounded-full">
+                    Artista
+                </div>
+
+                <div class="px-3 py-1 bg-dark-light rounded-full">
+                    Género
+                </div>
+
+                <div class="px-3 py-1 bg-dark-light rounded-full">
+                    Álbumes
+                </div>
+            </div>
+
+            <div class="flex gap-x-5 mt-5">
                 <div class="w-2/5">
                     <h2 class="text-light-primary text-2xl font-bold">
                         Resultado principal
                     </h2>
 
-                    <div class="p-4 space-y-5 bg-dark-lighter rounded">
+                    <div class="mt-5 p-4 space-y-5 bg-dark-lighter rounded">
                         <div>
                             <img class="w-28 rounded rounded-full" src="/images/sacoto.jpeg" alt="">
                         </div>
@@ -80,19 +97,140 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="w-3/5">
                     <h2 class="text-light-primary text-2xl font-bold">
                         Canciones
                     </h2>
 
-                    <div>
-                        <div class="flex justify-between">
-                            <div>Left</div>
-                            <div>Rigth</div>
+                    <div class="mt-5">
+                        <div class="group p-2 flex justify-between items-center hover:bg-dark-light rounded">
+                            <div class="flex gap-x-4">
+                                <div class="relative">
+                                    <img class="w-12 group-hover:brightness-50" src="/images/sacoto.jpeg" alt="">
+                                    <svg class="absolute hidden group-hover:block top-[30%] left-[30%] w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Al Borde (en vivo)</h3>
+                                    <div class="text-sm"><a href="#" class="hover:underline">Sergio Sacoto</a></div>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-x-4">
+                                <div class="px-5">
+                                    <Like
+                                        :like="true"
+                                    >
+                                    </Like>
+                                </div>
+                                <div class="text-light-secondary">
+                                    4:39
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+
+                        <div class="group p-2 flex justify-between items-center hover:bg-dark-light rounded">
+                            <div class="flex gap-x-4">
+                                <div class="relative">
+                                    <img class="w-12 group-hover:brightness-50" src="/images/sacoto.jpeg" alt="">
+                                    <svg class="absolute hidden group-hover:block top-[30%] left-[30%] w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Al Borde (en vivo)</h3>
+                                    <div class="text-sm"><a href="#" class="hover:underline">Sergio Sacoto</a></div>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-x-4">
+                                <div class="px-5">
+                                    <Like
+                                        :like="true"
+                                    >
+                                    </Like>
+                                </div>
+                                <div class="text-light-secondary">
+                                    4:39
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group p-2 flex justify-between items-center hover:bg-dark-light rounded">
+                            <div class="flex gap-x-4">
+                                <div class="relative">
+                                    <img class="w-12 group-hover:brightness-50" src="/images/sacoto.jpeg" alt="">
+                                    <svg class="absolute hidden group-hover:block top-[30%] left-[30%] w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Al Borde (en vivo)</h3>
+                                    <div class="text-sm"><a href="#" class="hover:underline">Sergio Sacoto</a></div>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-x-4">
+                                <div class="px-5">
+                                    <Like
+                                        :like="true"
+                                    >
+                                    </Like>
+                                </div>
+                                <div class="text-light-secondary">
+                                    4:39
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group p-2 flex justify-between items-center hover:bg-dark-light rounded">
+                            <div class="flex gap-x-4">
+                                <div class="relative">
+                                    <img class="w-12 group-hover:brightness-50" src="/images/sacoto.jpeg" alt="">
+                                    <svg class="absolute hidden group-hover:block top-[30%] left-[30%] w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Al Borde (en vivo)</h3>
+                                    <div class="text-sm"><a href="#" class="hover:underline">Sergio Sacoto</a></div>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-x-4">
+                                <div class="px-5">
+                                    <Like
+                                        :like="true"
+                                    >
+                                    </Like>
+                                </div>
+                                <div class="text-light-secondary">
+                                    4:39
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,6 +243,6 @@
 </template>
 
 <script setup>
-import Tile from '../components/Tile.vue';
+import Like from '../components/Like.vue';
 </script>
 
