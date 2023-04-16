@@ -51,7 +51,8 @@
     <!-- Content -->
     <!-- <Home></Home> -->
     <!-- <Search></Search> -->
-      <SearchResults></SearchResults>
+    <!-- <SearchResults></SearchResults> -->
+    <PlayList></PlayList>
     <!-- End content -->
 
 
@@ -170,4 +171,5 @@ import Home from './pages/Home.vue';
 import Search from './pages/Search.vue';
 import SearchResults from './pages/SearchResults.vue';
 import Like from './components/Like.vue';
+import PlayList from './pages/PlayList.vue';
 </script>
