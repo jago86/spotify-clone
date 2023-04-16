@@ -49,7 +49,8 @@
 
 
     <!-- Content -->
-      <Home></Home>
+    <!-- <Home></Home> -->
+    <Search></Search>
     <!-- End content -->
 
 
@@ -165,5 +166,6 @@
 
 <script setup>
 import Home from './pages/Home.vue';
+import Search from './pages/Search.vue';
 import Like from './components/Like.vue';
 </script>
