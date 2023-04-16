@@ -84,7 +84,7 @@
                 <button class="font-bold text-light-secondary text-sm hover:underline">Mostrar todos</button>
             </div>
 
-            <div class="grid grid-cols-5 grid-rows-6 gap-3">
+            <div class="mt-4 grid grid-cols-5 grid-rows-6 gap-3">
                 <div class="flex flex-col justify-between bg-orange-500 h-48 pt-5 pl-4 overflow-hidden rounded">
                     <h2 class="text-2xl font-bold">Podcasts</h2>
                     <div class="flex justify-end">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-between bg-orange-500 h-48 pt-5 pl-4 overflow-hidden rounded">
+                <div class="flex flex-col justify-between bg-blue-900 h-48 pt-5 pl-4 overflow-hidden rounded">
                     <h2 class="text-2xl font-bold">Creados para ti</h2>
                     <div class="flex justify-end">
                         <img class="-mr-7 -mb-3 rotate-[30deg] w-24" src="/images/pop.png">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-between bg-orange-500 h-48 pt-5 pl-4 overflow-hidden rounded">
+                <div class="flex flex-col justify-between bg-blue-900 h-48 pt-5 pl-4 overflow-hidden rounded">
                     <h2 class="text-2xl font-bold">Creados para ti</h2>
                     <div class="flex justify-end">
                         <img class="-mr-7 -mb-3 rotate-[30deg] w-24" src="/images/pop.png">
@@ -141,7 +141,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col justify-between bg-orange-500 h-48 pt-5 pl-4 overflow-hidden rounded">
+                <div class="flex flex-col justify-between bg-blue-900 h-48 pt-5 pl-4 overflow-hidden rounded">
                     <h2 class="text-2xl font-bold">Creados para ti</h2>
                     <div class="flex justify-end">
                         <img class="-mr-7 -mb-3 rotate-[30deg] w-24" src="/images/pop.png">

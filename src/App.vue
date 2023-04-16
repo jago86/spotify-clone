@@ -50,7 +50,8 @@
 
     <!-- Content -->
     <!-- <Home></Home> -->
-    <Search></Search>
+    <!-- <Search></Search> -->
+      <SearchResults></SearchResults>
     <!-- End content -->
 
 
@@ -167,5 +168,6 @@
 <script setup>
 import Home from './pages/Home.vue';
 import Search from './pages/Search.vue';
+import SearchResults from './pages/SearchResults.vue';
 import Like from './components/Like.vue';
 </script>
