@@ -1,5 +1,5 @@
 <template>
-    <div class="w-64 flex flex-col p-1 text-sm bg-dark-light rounded shadow">
+    <div class="absolute z-10 w-64 flex flex-col p-1 text-sm bg-dark-light rounded shadow">
 
         <button
             v-for="item in items"

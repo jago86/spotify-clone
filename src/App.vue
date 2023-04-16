@@ -52,7 +52,7 @@
     <div class="w-[87%] bg-dark-darker overflow-scroll">
 
 
-      <div class="flex justify-between px-10 py-4 bg-black sticky top-0">
+      <div class="flex justify-between px-10 py-4 bg-black sticky top-0 z-20">
         <div class="space-x-2">
 
           <button class="p-[0.20rem] bg-dark-light rounded-full">
@@ -123,48 +123,7 @@
 
         </div>
 
-        <div class="border p-5 bg-gray-200">
-          <Dropdown
-            :items="[
-              {
-                title: 'Seguir',
-                icon: null,
-                items: null,
-              },
-              {
-                title: 'Ir a radio del artista',
-                icon: null,
-                items: null,
-              },
-              {
-                title: 'Denunciar',
-                icon: 'ArrowTopRightOnSquare',
-                items: null,
-              },
-              {
-                title: 'Compartir',
-                icon: 'ChevronRight',
-                items: [
-                  {
-                    title: 'Copiar URI de Spotify',
-                    icon: null,
-                    items: null,
-                  },
-                  {
-                    title: 'Insertar artista',
-                    icon: null,
-                    items: null,
-                  },
-                ],
-              },
-              {
-                title: 'Abrir en la aplicación del ordenador',
-                icon: null,
-                items: null,
-              },
-            ]"
-          ></Dropdown>
-        </div>
+
       </div>
     </div>
     <!-- End content -->
