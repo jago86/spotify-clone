@@ -75,9 +75,24 @@
             </div>
         </div>
 
+        <div class="px-7 pb-28">
+            <h2 class="text-2xl font-semibold">Populares</h2>
+
+            <div class="mt-3">
+                <Track></Track>
+                <Track></Track>
+                <Track></Track>
+                <Track></Track>
+                <Track></Track>
+            </div>
+            <div class="ml-5 mt-4">
+                <a href="#" class="text-light-secondary hover:text-light-primary font-semibold">See more</a>
+            </div>
+        </div>
+
     </div>
 </template>
 
 <script setup>
-import Tile from '../components/Tile.vue';
+import Track from '../components/Track.vue';
 </script>
