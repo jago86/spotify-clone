@@ -56,37 +56,69 @@
             </div>
         </div>
 
-        <div class="px-7 py-5 flex items-center gap-x-7">
-            <div>
-                <button>
-                    <svg class="w-16 h-16 text-green-primary hover:scale-105 hover:text-green-secondary transition" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+        <div class="from-amber-950 to-dark bg-gradient-to-b to-40%">
+            <div class="px-7 py-5 flex items-center gap-x-7">
+                <div>
+                    <button>
+                        <svg class="w-16 h-16 text-green-primary hover:scale-105 hover:text-green-secondary transition" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <button class="border px-4 py-1 font-semibold text-sm tracking-widest rounded uppercase">Siguiendo</button>
+                </div>
+                <div>
+                    <svg class="w-10 h-10 text-light-secondary hover:text-light-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                     </svg>
-                </button>
+                </div>
             </div>
-            <div>
-                <button class="border px-4 py-1 font-semibold text-sm tracking-widest rounded uppercase">Siguiendo</button>
-            </div>
-            <div>
-                <svg class="w-10 h-10 text-light-secondary hover:text-light-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                </svg>
-            </div>
-        </div>
 
-        <div class="px-7 pb-28">
-            <h2 class="text-2xl font-semibold">Populares</h2>
+            <div class="px-7 pb-28">
+                <h2 class="text-2xl font-semibold">Populares</h2>
 
-            <div class="mt-3">
-                <Track></Track>
-                <Track></Track>
-                <Track></Track>
-                <Track></Track>
-                <Track></Track>
-            </div>
-            <div class="ml-5 mt-4">
-                <a href="#" class="text-light-secondary hover:text-light-primary font-semibold">See more</a>
+                <div class="mt-3">
+                    <Track
+                        :track-number="1"
+                        image="/images/soda.jpeg"
+                        track-name="Al borde (en vivo)"
+                        duration="4:58"
+                        :like="true"
+                    ></Track>
+                    <Track
+                        :track-number="2"
+                        image="/images/sacoto.jpeg"
+                        track-name="Lamento Boliviano"
+                        duration="3:42"
+                        :like="false"
+                    ></Track>
+                    <Track
+                        :track-number="3"
+                        image="/images/nickel.jpeg"
+                        track-name="La Muralla Verde"
+                        duration="2:41"
+                        :like="true"
+                    ></Track>
+                    <Track
+                        :track-number="4"
+                        image="/images/soda.jpeg"
+                        track-name="Tu carcel - En Vivo"
+                        duration="4:02"
+                        :like="false"
+                    ></Track>
+                    <Track
+                        :track-number="5"
+                        image="/images/nickel.jpeg"
+                        track-name="Mariposas"
+                        duration="3:41"
+                        :like="true"
+                    ></Track>
+                </div>
+                <div class="ml-5 mt-4">
+                    <a href="#" class="text-light-secondary hover:text-light-primary font-semibold">See more</a>
+                </div>
             </div>
         </div>
 
