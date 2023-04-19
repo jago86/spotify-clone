@@ -50,7 +50,7 @@
             <button class="font-bold text-light-secondary text-sm hover:underline">Mostrar todos</button>
         </div>
 
-        <div class="mt-8 grid grid-rows-1 grid-cols-5 gap-x-5">
+        <div class="mt-8 grid grid-rows-1 grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 3xl:grid-cols-8 gap-x-5">
 
             <Tile
             title="Sergio Sacoto"
@@ -69,6 +69,18 @@
             sub-title="These songs rocked the 00s. Cover: Green Day"
             image="/images/rock.jpeg"
             shape="square"
+            ></Tile>
+
+            <Tile
+            title="Enanitos Verdes"
+            sub-title="Artista"
+            image="/images/enanitos.jpeg"
+            ></Tile>
+
+            <Tile
+            title="Enanitos Verdes"
+            sub-title="Artista"
+            image="/images/enanitos.jpeg"
             ></Tile>
 
         </div>

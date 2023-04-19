@@ -77,8 +77,8 @@
                 </div>
             </div>
 
-            <div class="flex gap-x-5 mt-5">
-                <div class="w-2/5">
+            <div class="flex flex-col lg:flex-row gap-x-5 gap-y-5 mt-5">
+                <div class="w-full lg:w-2/5 ">
                     <h2 class="text-light-primary text-2xl font-bold">
                         Resultado principal
                     </h2>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="w-3/5">
+                <div class="w-full lg:w-3/5">
                     <h2 class="text-light-primary text-2xl font-bold">
                         Canciones
                     </h2>

@@ -64,7 +64,7 @@
                 <button class="font-bold text-light-secondary text-sm hover:underline">Mostrar todos</button>
             </div>
 
-            <div class="mt-8 grid grid-rows-1 grid-cols-5 gap-x-5">
+            <div class="mt-8 grid grid-rows-1 grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 3xl:grid-cols-8 gap-x-5">
 
                 <Tile title="Sergio Sacoto" sub-title="Artista" image="/images/sacoto.jpeg"></Tile>
 
@@ -84,7 +84,7 @@
                 <button class="font-bold text-light-secondary text-sm hover:underline">Mostrar todos</button>
             </div>
 
-            <div class="mt-4 grid grid-cols-5 grid-rows-6 gap-3">
+            <div class="mt-4 grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 3xl:grid-cols-8 grid-rows-6 gap-3">
                 <div class="flex flex-col justify-between bg-orange-500 h-48 pt-5 pl-4 overflow-hidden rounded">
                     <h2 class="text-2xl font-bold">Podcasts</h2>
                     <div class="flex justify-end">

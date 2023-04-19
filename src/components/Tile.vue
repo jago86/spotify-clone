@@ -20,7 +20,7 @@
             </div>
             <div class="mx-5 mt-4">
                 <h3 class="font-bold text-light-primary">{{ title }}</h3>
-                <p class="text-sm text-light-secondary">{{ subTitle }}</p>
+                <p class="text-sm overflow-hidden text-ellipsis line-clamp-2 text-light-secondary">{{ subTitle }}</p>
             </div>
         </div>
 
